@@ -37,7 +37,7 @@ function App() {
 
     return (
         <BrowserRouter>
-            {/* <Header /> */}
+            <Header />
             <Routes>
                 <Route path="/" exact element={<Home />} />
                 <Route path="/:mediaType/:id" element={<Details />} />
